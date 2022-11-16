@@ -1,0 +1,60 @@
+.left{
+    padding-top: 8rem;
+}
+.abouttitle{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 129.9%;
+    color: #000000;
+    padding-bottom: 2rem;
+}
+.african{
+    color: #FFBA00;
+}
+.abouttext{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #191919;
+    opacity: 0.8;
+    padding-bottom: 2rem;
+}
+.abouti{
+    display: flex;
+    list-style: none;
+    gap: 5rem;
+    padding-bottom: 1rem;
+}
+.about{
+    display: flex;
+}
+.right{
+    padding-top: 18rem;
+}
+.about2{
+    display: flex;
+    list-style: none;
+    gap: 5rem;
+    padding-bottom: 2rem;
+}
+.aboutus{
+    border: none;
+    background: #FFBA00;
+    border-radius: 10.1754px;
+    width: 145px;
+    height: 57.24px;
+}
+@media screen and (max-width: 400px) {
+ .about{
+    display: block;
+ }   
+ .left>img{
+    width: 350px;
+ }
+ .right{
+    padding-top: 2rem;
+    padding-left: 1rem;
+ }
+}

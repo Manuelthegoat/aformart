@@ -1,0 +1,97 @@
+.title{
+    text-align: center;
+}
+.titletext{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 72px;
+text-transform: capitalize;
+color: #191919;
+padding-bottom: 2rem;
+}
+.normaltext{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #191919;
+    opacity: 0.8;
+}
+.trendingproducts>img{
+    padding-right: 2rem;
+}
+.trendingproducts{
+    padding-top: 3rem;
+    text-align: center;
+}
+.rating>img{
+    padding-left: 6rem;
+}
+.trendtext{
+    text-align: center;
+    display: flex;
+    width: 12rem;
+}
+.trendname{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 36px;
+/* identical to box height */
+
+text-align: center;
+text-transform: capitalize;
+
+/* color 3 */
+
+color: #000000;
+padding-bottom: 1rem;
+
+}
+.trendtex{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+text-align: center;
+text-transform: capitalize;
+
+/* Style */
+
+color: #191919;
+
+opacity: 0.8;
+width: 16rem;
+padding-left: 2rem;
+padding-bottom: 1rem;
+}
+.view{
+    width: 140px;
+height: 45px;
+background: #FFBA00;
+border-radius: 8px;
+border: none;
+}
+.trendswipe2{
+    display: none;
+}
+@media screen and (max-width: 400px) {
+ .trending{
+    
+ }
+ .trendswipe1{
+    display: none;
+ }
+ .trendswipe2{
+    display: block;
+ }
+ .trendtex{
+    padding-left: 4rem;
+ }
+}

@@ -1,0 +1,82 @@
+.footicons>img{
+    padding-right: 2rem;
+    padding-left: 1rem;
+}
+.nametext{
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+}
+.footerlogo{
+    padding-bottom: 1rem;
+    width: 7rem;
+}
+.footlistli{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    
+    /* Style */
+    
+    color: #191919;
+}
+.footlisttitle{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFBA00;
+}
+.footlinks{
+    display: flex;
+    gap: 5rem;
+    padding-top: 3rem;
+    padding-left: 6rem;
+}
+.footlinks>ul>li{
+    list-style: none;
+}
+.footer{
+    display: flex;
+    padding-top: 5rem;
+    gap: 3rem;
+    padding-left: 7rem;
+}
+.fcontacttext{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #191919;
+    padding-top: 1rem;
+}
+.footcontact{
+    padding-top: 3rem;
+    padding-left: 2rem;
+}
+.finput{
+    background: #E8E8E8;
+    border-radius: 8px;
+    height: 3rem;
+    color: black;
+    border: none;
+    padding-left: 1rem;
+}
+.fbutton{
+    background: #FFBA00;
+    border-radius: 8px;
+    height: 3rem;
+    border: none;
+    width: 7rem;
+}
+.footinput{
+    padding-top: 2rem;
+    display: flex;
+    gap: 1rem;
+}
+@media screen and (max-width: 400px) {
+ .footer{
+    display: none;
+ }
+    
+}

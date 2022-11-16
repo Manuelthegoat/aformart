@@ -1,0 +1,70 @@
+.herotitle{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 140.62%;
+    color: #000000;
+}
+.alttext{
+    color: #FFBA00;
+}
+.hero{
+    display: flex;
+    gap: 6rem;
+    padding-bottom: 3rem;
+}
+.heroleft{
+    padding-top: 5rem;
+    padding-left: 2rem;
+}
+.herotext{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: -0.01em;
+    color: #191919;
+    opacity: 0.8;
+    padding-top: 2rem;
+}
+.icon{
+    position: absolute;
+    padding-top: 1rem;
+    padding-left: 1rem;
+}
+.heroleft
+.heroinput{
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 0.5px solid #191919;
+    border-radius: 8px;
+    width: 471px;
+    height: 54px;
+    padding-left: 3rem;
+}
+.search{
+    padding-top: 2rem;
+}
+.btnhero{
+    background: none;
+    border: none;
+    position: absolute;
+    left: 455px;
+    padding-top: 0.4rem;
+}
+@media screen and (max-width: 400px) {
+ .hero{
+    display: block;
+ }   
+ .heroinput{
+    width: 300px;
+ }
+ .btnhero{
+    left: 280px;
+ }
+ .heroright>img{
+    width: 380px;
+ }
+}

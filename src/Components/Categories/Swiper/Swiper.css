@@ -1,0 +1,51 @@
+.swipers{
+    text-align: center;
+    padding-bottom: 2rem;
+            
+}
+.fishimg{
+    z-index: -100;
+    position: absolute;
+}
+/* .swipersli{
+    height: 5rem;
+} */
+.swipename{
+    border-left: none;
+    background-color: white;
+    border-right: none;
+    width: 23rem;
+    height: 7rem;
+    padding-left: 2rem;
+    padding-top: 2rem;
+}
+.swipeimg{
+    position: absolute;
+    z-index: -100;
+}
+.swipenames{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color: #121212;
+}
+.swipqty{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 33px;
+    color: #121212;
+}
+.swipersliwidth{
+    display: none;
+}
+@media screen and (max-width: 400px) {
+    .swipersliwidth{
+        display: block;
+    }
+    .swipersli{
+        display: none;
+    }
+    
+}

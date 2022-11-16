@@ -1,0 +1,53 @@
+.contacttitle{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #CC9D2F;
+}
+.contacttext{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14.96px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+.contact{
+    display: flex;
+    padding-left: 8rem;
+}
+.contactleft{
+    background: black;
+    height: 31.1rem;
+}
+.working{
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-top: 2rem;
+}
+.location{
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+.contactus{
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+@media screen and (max-width: 400px) {
+ .contact{
+    display: block;
+    padding-left: 0;
+ } 
+ .working{
+    padding-left: 1rem;
+ }
+ .location{
+    padding-left: 1rem;
+ }
+ .contactus{
+    padding-left: 1rem;
+ }
+ .map{
+    width: 400  px;
+ }
+}

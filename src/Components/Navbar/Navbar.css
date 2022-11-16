@@ -1,0 +1,68 @@
+.navlist{
+    display: flex;
+    gap: 4rem;
+    padding-left: 2rem;
+}
+.carty{
+    display: flex;
+    gap: 0.3rem;
+}
+.carty img{
+    height: 1rem;
+}
+.navbar{
+    display: flex;
+    gap: 7rem;
+    transition: .3s ease-in-out;
+}
+.sticky{
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.6);
+    background: white;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    display: flex;
+    gap: 7rem;
+}
+.navitem{
+    text-decoration: none;
+    color: black;
+    padding-top: 3rem;
+}
+.navlogo{
+    padding-top: 1rem;
+    padding-left: 2rem;
+}
+.navlogo>img{
+    width: 7rem;
+}
+.navbutton{
+    width: 223px;
+    height: 51px;
+    background: #FFBA00;
+    border-radius: 9.17791px;
+    border: none;
+}
+.navbtn{
+    padding-top: 2rem;
+}
+@media screen and (max-width: 400px) {
+    .navlist{
+        display: none;
+    }
+    .navbtn{
+        padding-top: 3rem;
+    }
+    .navbar{
+        gap: 1rem;
+    }
+    .navbutton{
+        width: 170px;
+    }
+    .navlogo{
+        padding-left: 1rem;
+    }
+    .sticky{
+        gap: 1rem;
+    }
+}

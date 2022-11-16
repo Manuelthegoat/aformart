@@ -1,0 +1,15 @@
+.catehead{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 33px;
+    color: #121212;
+}
+.cathead{
+    text-align: center;
+    padding-bottom: 7rem;
+}
+.categories{
+    padding-bottom: 4rem;
+}

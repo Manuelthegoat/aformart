@@ -1,0 +1,17 @@
+.copyright{
+    padding-top: 5rem;  
+    padding-bottom: 3rem;
+    text-align: center;
+}
+.copytext{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #191919;
+}
+@media screen and (max-width: 400px) {
+ .copyright{
+    display: none;
+ }   
+}
